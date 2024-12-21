@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    @apply min-h-screen bg-[#FAFAFA];
+}
+
+.shadowCardAuth{
+  box-shadow: 0 0 24px 0 rgba(8, 23, 53, 0.16);
+}
+.imageDiv {
+  max-height: 500px;
+  transition: max-height 0.25s ease-in;
+}
